@@ -1,0 +1,138 @@
+body {
+    font-family: Arial, sans-serif;
+    color: #C2E6FF;
+    background-color: #0D1520;
+}
+
+.header {
+    position: fixed;
+    width: 100%;
+    padding: 4rem 12% 4rem;
+    background-color: #0D1520;
+    display: flex;
+    justify-content: space-between;  
+    align-items: center;
+    z-index: 5;
+}
+
+.logo {
+    font-size: 3rem;
+    font-weight: 800;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.logo:hover{
+    transform: scale(1.1);
+}
+
+.logo span {
+    color: #3B9EFF;
+}
+
+.navbar a {
+    font-size: 1.8rem;
+   margin-left: 4rem;
+   font-weight: 500;
+    transition: 0.3s ease;
+}
+
+.Lien__MonCV {
+    border: 0.3rem solid;
+    padding: 0.2em 0.5em;
+    border-radius: 0.3em;
+}
+
+.navbar a:hover,
+.navbar a.active {
+    color: #0090FF;
+}
+
+#menu_icon {
+    font-size: 3.6rem;
+    color: #3B9EFF;
+    display: none;
+}
+
+section{
+    min-height: 100vh;
+    padding: 10rem 12% 10rem;
+}
+
+.home {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15rem;
+}
+
+.home__content{
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    text-align: left;
+}
+
+.home__content h1 {
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+    font-size: 3.5rem;
+}
+
+.title__hello{
+    font-size: 0.7em
+}
+
+.title__CAFFINMAXIME{
+    font-size: 7rem;
+    font-weight: 700;
+    margin-top: 1.5rem;
+    line-height: 1;
+    color: #3B9EFF;
+}
+
+.home__content p{
+    font-size: 1.5rem;
+    font-weight: 500;
+    line-height: 1.8;
+    max-width: 62.5rem;
+    margin-bottom: 2rem;
+}
+
+.btn__box{
+ display: flex;
+ align-items: center;
+ gap: 1.5rem;
+}
+
+.btn{
+    display: inline-block;
+    padding: 1rem 2.8rem;
+    background-color: #0D1520;
+    color: #C2E6FF;
+    border: 0.15em solid #C2E6FF;
+    border-radius: 4rem;
+    font-size: 1.6rem;
+    letter-spacing: 0.1rem;
+    font-weight: 600;
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.btn:hover{
+    transform: scale(1.05);
+    background-color: #0090FF;
+    color: black;
+    border: 0.15em solid black;
+}
+
+.home__img{
+    border-radius: 50%;
+}
+
+.home__img img{
+    position: relative;
+    top: 3rem;
+    width: 32vw;
+    border-radius: 50%;
+}
