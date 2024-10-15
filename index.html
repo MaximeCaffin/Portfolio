@@ -19,12 +19,14 @@
         <i class='bx bx-menu'id="menu_icon"></i>
 
         <nav class="navbar">
-            <a href="#">Compétences</a>
-            <a href="#">Projet</a>
-            <a href="#">Contactez moi</a>
+            <a href="#home">Accueil</a>
+            <a href="#skills">Compétences</a>
+            <a href="#projects">Projet</a>
+            <a href="#contact">Contactez-moi</a>
             <a class="Lien__MonCV" href="#">Mon CV</a>
         </nav>    
     </header>
+
 
     <main>
         <section class="home" id="home">
@@ -39,8 +41,11 @@
                     Laudantium iste dolorum architecto!</p>
 
                 <div class="btn__box">
-                    <button class="btn"><i class='bx-fw bx bxl-linkedin-square bx-sm'></i>Linkedin</button>
-                    <button class="btn"><i class='bx-fw bx bxl-github bx-sm'></i>Github</button>
+                    <button class="btn"><a href="https://www.linkedin.com/in/maximecaffin/">
+                        <i class='bx-fw bx bxl-linkedin-square bx-sm'></i>Linkedin</a></button>
+
+                    <button class="btn"> <a href=" https://github.com/MaximeCaffin?tab=repositories ">
+                        <i class='bx-fw bx bxl-github bx-sm'></i>Github</a></button>
                 </div>    
             </div>
 
@@ -48,8 +53,167 @@
                 <img src="img/Photo CAFFIN Maxime.jpg" alt="Photo de CAFFIN Maxime">
             </div>  
         </section>
-    </main>
 
+
+        <section class="skills" id="skills">
+            <div class="skills__box">
+                <h2 class="secondary__heading">Compétences</h2>
+
+                <div class="skills__wrapper">
+                    
+                    <div class="skills__item">
+                        <h3 class="skills__heading">Front-end</h3>
+
+                        <div class="skills__content">
+                            <div class="skills__logo"> 
+                                <img src="img/html-5.png" alt="logo html5">
+                                <h4 class="logo__title">HTML</h4>
+                            </div>
+
+                            <div class="skills__logo">   
+                                <img src="img/css3.png" alt="logo css3">
+                                <h4 class="logo__title">CSS</h4>
+                            </div>
+
+                            <div class="skills__logo">
+                                <img src="img/javascript.png" alt="logo javascript">
+                                <h4 class="logo__title">JavaScript</h4>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skills__item">
+                        <h3 class="skills__heading">Back-end</h3>
+
+                        <div class="skills__content">
+                            <div class="skills__logo"> 
+                                <img src="img/php.png" alt="logo php">
+                                <h4 class="logo__title">Php</h4>
+                            </div>
+
+                            <div class="skills__logo">   
+                             <img src="img/symfony.png" alt="logo symfony">
+                                <h4 class="logo__title">Symfony</h4>
+                            </div>
+
+                            <div class="skills__logo">
+                                <img src="img/mysql.png" alt="logo mysql">
+                                <h4 class="logo__title">Mysql</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>    
+            </div>
+        </section>
+
+
+        <section class="projects" id="projects">
+            <h2 class="secondary__heading">Projet</h2>
+           
+                <div class="projects__box">
+                    <div class="projects__card">
+                        <img src="img/javascript.png" alt="en cours">
+
+                        <h3>Projet 1</h3>
+
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                            Mollitia iure a reiciendis ullam hic id saepe amet cum 
+                            corrupti, necessitatibus minima numquam dolorum similique, 
+                            qui odio! Blanditiis exercitationem repudiandae dolore?</p>
+                    
+                        <button class="btn">Voir le projet</button>
+                    </div>
+
+
+                    <!-- <div class="projects__card">
+                        <img src="img/javascript.png" alt="en cours">
+
+                        <h3>Projet 2</h3>
+
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                            Mollitia iure a reiciendis ullam hic id saepe amet cum 
+                            corrupti, necessitatibus minima numquam dolorum similique, 
+                            qui odio! Blanditiis exercitationem repudiandae dolore?</p>
+                    
+                        <button class="btn">Voir le projet</button>
+                    </div> -->
+
+
+                    <!-- <div class="projects__card">
+                        <img src="img/javascript.png" alt="en cours">
+
+                        <h3>Projet 3</h3>
+
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                            Mollitia iure a reiciendis ullam hic id saepe amet cum 
+                            corrupti, necessitatibus minima numquam dolorum similique, 
+                            qui odio! Blanditiis exercitationem repudiandae dolore?</p>
+                    
+                        <button class="btn">Voir le projet</button>
+                    </div> -->
+                </div>
+            </section>
+
+
+            <section class="contact" id="contact">
+                <h2 class="secondary__heading">Contactez-moi</h2>
+
+                <form action="#">
+                    <div class="input__group">
+                        <div class="input__box">
+                            <input type="text" placeholder="Nom et Prenom">
+                            <input type="email" placeholder="Email">
+                        </div>
+
+
+                        <div class="input__box">
+                            <input type="number" placeholder="Numéro de téléphone">
+                            <input type="text" placeholder="Sujet">
+                        </div>
+                    </div>
+                    
+                    
+                    <div class="input__group__2"> 
+                        <textarea name="" id="" cols="40" rows="12" placeholder="Message"></textarea>
+                        <input type="submit" value="Envoyez" class="btn">
+                    </div>
+                </form>
+            </section>
+        </main>
+
+
+        <footer class="footer">
+            <div class="social">
+                <a href="https://www.linkedin.com/in/maximecaffin/">
+                 <i class='bx-fw bx bxl-linkedin-square bx-md'></i></a>
+
+                <a href=" https://github.com/MaximeCaffin?tab=repositories ">
+                 <i class='bx-fw bx bxl-github bx-md'></i></a>
+            </div>
+
+
+            <ul>
+                <li>
+                    <a href="#skills">Compétences</a>
+                </li>
+                
+                <li>
+                    <a href="#projects">Projet</a>
+                </li>
+                
+                <li>
+                    <a href="#contact">Contactez-moi</a>
+                </li>
+
+                <li>
+                    <a href="#">Mon CV</a>
+                </li>
+            </ul>
+
+            <p class="copyright">©2024 CAFFIN Maxime – Tous droits réservés</p>
+        </footer>
+
+        <script src="js/app.js"></script>
 </body>
 </html>
 
