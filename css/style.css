@@ -382,12 +382,9 @@ input[type=number] {
     }
 
     .projects__box img{
-        min-width: 10vw;
+        max-width: 13vh ;
     }
 
-    .projects__box button{
-        margin-bottom: 2rem;
-    }
 }
 
 @media(max-width:995px){
