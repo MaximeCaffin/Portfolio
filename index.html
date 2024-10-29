@@ -14,16 +14,16 @@
 <body>
 
     <header class="header">
-        <a href="#home" class="logo"><span>CAFFIN</span> Maxime</a>
+        <a href="#home" aria-label="Revenir à l'accueil" class="logo"><span>CAFFIN</span> Maxime</a>
 
         <i class='bx bx-menu'id="menu_icon"></i>
 
         <nav class="navbar">
-            <a href="#home">Accueil</a>
-            <a href="#skills">Compétences</a>
-            <a href="#projects">Projet</a>
-            <a href="#contact">Contactez-moi</a>
-            <a class="Lien__MonCV" href="doc/CV CAFFIN Maxime.pdf">Mon CV</a>
+            <a href="#home" aria-label="Voir l'accueil">Accueil</a>
+            <a href="#skills" aria-label="Voir les compétences">Compétences</a>
+            <a href="#projects" aria-label="Voir les projets">Projet</a>
+            <a href="#contact" aria-label="Voir le formulaire de contact">Contactez-moi</a>
+            <a class="Lien__MonCV" href="doc/CV CAFFIN Maxime.pdf" aria-label="Télécharger et voir mon CV">Mon CV</a>
         </nav>    
     </header>
 
@@ -41,11 +41,11 @@
                     avec professionnalisme et enthousiasme.</p>
 
                 <div class="btn__box">
-                    <button class="btn"><a href="https://www.linkedin.com/in/maximecaffin/">
-                        <i class='bx-fw bx bxl-linkedin-square bx-sm'></i>Linkedin</a></button>
+                    <a  class="btn" href="https://www.linkedin.com/in/maximecaffin/" aria-label="Lien vers mon compte Linkedin">
+                        <i class='bx-fw bx bxl-linkedin-square bx-sm'></i>Linkedin</a>
 
-                    <button class="btn"> <a href=" https://github.com/MaximeCaffin?tab=repositories ">
-                        <i class='bx-fw bx bxl-github bx-sm'></i>Github</a></button>
+                    <a class="btn" href=" https://github.com/MaximeCaffin?tab=repositories " aria-label="Lien vers mon compte Github">
+                        <i class='bx-fw bx bxl-github bx-sm'></i>Github</a>
                 </div>    
             </div>
 
@@ -121,7 +121,8 @@
                              tout en contribuant à la conception du site.
                         </p>
                     
-                        <button class="btn"><a href="https://github.com/MaximeCaffin/projet-location-jeux-societe-back">Voir le code</a></button>
+                        <a class="btn" href="https://github.com/MaximeCaffin/projet-location-jeux-societe-back" 
+                            aria-label="Lien vers mon projet de magasin de location">Voir le code</a>
                     </div>
 
 
@@ -154,6 +155,7 @@
                 </div>
             </section>
 
+<!-- TODO Voir pour l'envoie de mail une fois déployer -->
 
             <section class="contact" id="contact">
                 <h2 class="secondary__heading">Contactez-moi</h2>
@@ -184,29 +186,29 @@
 
         <footer class="footer">
             <div class="social">
-                <a href="https://www.linkedin.com/in/maximecaffin/">
+                <a href="https://www.linkedin.com/in/maximecaffin/" aria-label="Lien vers mon compte Linkedin">
                  <i class='bx-fw bx bxl-linkedin-square bx-md'></i></a>
 
-                <a href=" https://github.com/MaximeCaffin?tab=repositories ">
+                <a href=" https://github.com/MaximeCaffin?tab=repositories " aria-label="Lien vers mon compte Github">
                  <i class='bx-fw bx bxl-github bx-md'></i></a>
             </div>
 
 
             <ul>
                 <li>
-                    <a href="#skills">Compétences</a>
+                    <a href="#skills" aria-label="Revenir sur les compétences">Compétences</a>
                 </li>
                 
                 <li>
-                    <a href="#projects">Projet</a>
+                    <a href="#projects" aria-label="Revenir sur les Projets">Projet</a>
                 </li>
                 
                 <li>
-                    <a href="#contact">Contactez-moi</a>
+                    <a href="#contact" aria-label="Revenir sur le formulaire de contact">Contactez-moi</a>
                 </li>
 
                 <li>
-                    <a href="doc/CV CAFFIN Maxime.pdf">Mon CV</a>
+                    <a href="doc/CV CAFFIN Maxime.pdf"  aria-label="Télécharger et voir mon CV">Mon CV</a>
                 </li>
             </ul>
 
